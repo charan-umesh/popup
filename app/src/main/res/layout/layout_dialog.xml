@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/newvalue2"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/originalvalue"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:text="New Value"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/originalvalue"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/originalvalue2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="190dp"
+        android:hint="0.0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/originalvalue2"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Original Value"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/newvalue"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/originalvalue"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="190dp"
+        android:hint="0.0"
+        android:inputType="numberDecimal"/>
+
+
+</RelativeLayout>
